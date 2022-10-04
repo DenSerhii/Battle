@@ -1,8 +1,6 @@
 package com.company;
 
 public class Battlepoint {
-    Point x;
-    Point y;
 
     public void ShowMap(){
     for (int i=0; i<10; i++) {
@@ -11,6 +9,5 @@ public class Battlepoint {
         }
         System.out.println();
      }
-
     }
 }
